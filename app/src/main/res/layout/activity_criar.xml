@@ -7,7 +7,7 @@
     android:background="#6633ff"
     android:backgroundTint="#6633ff"
     android:orientation="vertical"
-    tools:context=".ActivityCriar" >
+    tools:context=".ActivityCriar">
 
     <TextView
         android:id="@+id/textView"
@@ -22,11 +22,76 @@
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/id_Nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
         android:ems="10"
+        android:hint="Nome Completo"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:id="@+id/id_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Telefone"
+        android:inputType="phone"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp" />
+
+    <Button
+        android:id="@+id/bt_Enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Enviar" />
 
 </LinearLayout>
