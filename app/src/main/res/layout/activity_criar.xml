@@ -94,4 +94,24 @@
         android:backgroundTint="@color/black"
         android:text="Enviar" />
 
+    <TextView
+        android:id="@+id/id_resultadoNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/id_resultadoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/id_resultadoTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/id_resultadoSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

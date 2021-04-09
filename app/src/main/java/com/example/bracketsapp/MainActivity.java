@@ -9,17 +9,17 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button botaoCadastrar, botaoLogin;
+    private Button botaoCriar, botaoLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        botaoCadastrar = (Button) findViewById(R.id.bt_criar);
+        botaoCriar = (Button) findViewById(R.id.bt_criar);
         botaoLogin = (Button) findViewById(R.id.bt_login);
 
-        botaoCadastrar.setOnClickListener(new View.OnClickListener() {
+        botaoCriar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
