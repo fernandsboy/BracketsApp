@@ -42,13 +42,13 @@ public class ActivityCriar extends AppCompatActivity {
                 String editSenha = senha.getText().toString();
 
                 if (editNome.isEmpty() || editEmail.isEmpty() || editTelefone.isEmpty() || editSenha.isEmpty()){
-                    Snackbar.make(v,"Preencha todos os campos!!", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(v,"Preencha todos os campos!!", Snackbar.LENGTH_LONG).show();
                 }else{
                     resultadoNome.setText(editNome);
                     resultadoEmail.setText(editEmail);
                     resultadoTelefone.setText(editTelefone);
                     resultadoSenha.setText(editSenha);
-                    Snackbar.make(v,"Cadastro feito com sucesso!!", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(v,"Cadastro feito com sucesso!!", Snackbar.LENGTH_LONG).show();
                 }
 
             }
