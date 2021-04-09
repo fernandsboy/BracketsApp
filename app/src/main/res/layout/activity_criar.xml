@@ -22,7 +22,7 @@
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/id_Nome"
+        android:id="@+id/id_NomeCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -39,7 +39,7 @@
         android:paddingBottom="10dp" />
 
     <EditText
-        android:id="@+id/id_Email"
+        android:id="@+id/id_EmailCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -55,7 +55,7 @@
         android:paddingBottom="10dp" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/id_Telefone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -71,7 +71,7 @@
         android:paddingBottom="10dp" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/id_SenhaCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -87,7 +87,7 @@
         android:paddingBottom="10dp" />
 
     <Button
-        android:id="@+id/bt_Enviar"
+        android:id="@+id/bt_EnviarCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
