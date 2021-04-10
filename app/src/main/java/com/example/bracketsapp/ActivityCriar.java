@@ -27,7 +27,6 @@ import java.util.Map;
 public class ActivityCriar extends AppCompatActivity {
 
     private EditText nome, email, telefone, senha;
-    private TextView resultadoNome, resultadoEmail, resultadoTelefone, resultadoSenha;
     private Button botaoEnviarCadastro;
     private FirebaseAuth mAuth;
     private FirebaseFirestore fStore;
@@ -47,10 +46,6 @@ public class ActivityCriar extends AppCompatActivity {
         email = findViewById(R.id.id_EmailCadastro);
         telefone = findViewById(R.id.id_Telefone);
         senha = findViewById(R.id.id_SenhaCadastro);
-        resultadoNome = findViewById(R.id.id_resultadoNome);
-        resultadoEmail = findViewById(R.id.id_resultadoEmail);
-        resultadoTelefone = findViewById(R.id.id_resultadoTelefone);
-        resultadoSenha = findViewById(R.id.id_resultadoSenha);
         mAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
 
@@ -66,7 +61,7 @@ public class ActivityCriar extends AppCompatActivity {
                 editSenha = senha.getText().toString();
 
                 if (editNome.isEmpty() || editEmail.isEmpty() || editTelefone.isEmpty() || editSenha.isEmpty()){
-                    Snackbar.make(v,"Preencha todos os campos!!", Snackbar.LENGTH_LONG).show();
+                    Toast.makeText(ActivityCriar.this, "Preencha todos os campos!!", Toast.LENGTH_SHORT).show();
                 }else{
 
 

@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity {
                 String editSenha = senha.getText().toString();
 
                 if (editEmail.isEmpty() || editSenha.isEmpty()){
-                    Snackbar.make(v,"Preencha todos os campos!!", Snackbar.LENGTH_LONG).show();
+                    Toast.makeText(LoginActivity.this, "Preencha todos os campos!!", Toast.LENGTH_SHORT).show();
                 }
                 else
                 {
