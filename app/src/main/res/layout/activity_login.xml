@@ -54,7 +54,7 @@
         android:paddingBottom="10dp" />
 
     <Button
-        android:id="@+id/id_EnviarLogin"
+        android:id="@+id/bt_EnviarLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
